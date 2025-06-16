@@ -100,26 +100,30 @@ Classification Report :
 
 ### 📊 Prediction Output
 
-```
-1 no.jpeg --> no [No_Tumor]
+1 no.jpeg --> no [No_Tumor]  
 Y7.jpg --> yes [Tumor]
 
 Confusion Matrix :
- [[88 10]
-  [5 150]]
+
+[[88 10]  
+ [5 150]]
 
 Confusion Matrix Figure:
+
 ![Confusion Matrix](confusion_matrix.png)
 
 Accuracy Score = 94 %
+
 Classification Report :
-               precision  recall  f1-score  support
-0              0.946237  0.897959  0.921466   98.000000
-1              0.937500  0.967742  0.952381  155.000000
-accuracy       0.940711  0.940711  0.940711    0.940711
-macro avg      0.941868  0.932851  0.936923  253.000000
-weighted avg   0.940884  0.940711  0.940406  253.000000
-```
+
+|           | precision | recall | f1-score | support |
+|-----------|-----------|--------|----------|---------|
+| 0         | 0.946237  | 0.897959 | 0.921466 | 98.000000 |
+| 1         | 0.937500  | 0.967742 | 0.952381 | 155.000000 |
+| accuracy  |           |         | 0.940711 |  |
+| macro avg | 0.941868  | 0.932851 | 0.936923 | 253.000000 |
+| weighted avg | 0.940884 | 0.940711 | 0.940406 | 253.000000 |
+
 
 ---
 
